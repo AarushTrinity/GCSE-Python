@@ -1,0 +1,28 @@
+#Data Types
+#CRIBS
+Character = "y"
+real_Float = 12.333
+Interger = 444
+Boolean = True
+String = "Bob123!"
+
+# It is possible to do maths with Floats and Intergers
+#It is NOT possible to do mahs with strings or char
+
+num1 = 20#int
+num2 = 30#int
+total = num1 + num2
+print(total)
+
+num1 = 20.1#float
+num2 = 30.1#float
+total = num1 + num2
+print(total)
+
+num1 = "20"#string
+num2 = "30"#string
+total = num1 + num2
+print(total)
+#You cannot add strings or char
+#Instead, the add symbol glues them together
+#But, we don't ca;; it glue, we call it concatenation
