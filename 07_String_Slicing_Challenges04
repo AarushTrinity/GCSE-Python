@@ -1,0 +1,15 @@
+#Ask user to enter the first line of a nursery rhyme
+rhyme_line = input("Enter the first line of a nursery rhyme: ")
+#Store the length of their input in a variable
+line_length = len(rhyme_line)
+#Display the string "This has {The numbers of letters as above}letters in it"
+print(f"This has {line_length} letters (including spaces) in it.")
+
+#Ask user to enter a starting number(as an integer)
+start_num = int(input("Enter a starting number (as an integer): "))
+#Ask user to enter an ending number (as an integer)
+end_num = int(input("Enter an ending number (as an integer): "))
+#Use the start/end number and store just that section in a variable
+section = rhyme_line[start_num:end_num]
+#Display the section stored in a variable above
+print(section)
