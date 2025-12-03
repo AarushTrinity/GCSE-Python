@@ -1,0 +1,6 @@
+def options():
+  print("Career mode")
+  print("Tournament mode")
+  print("Online seasons")
+
+options()
