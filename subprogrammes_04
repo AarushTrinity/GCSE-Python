@@ -1,0 +1,22 @@
+def menu():
+    print("1) Creative")
+    print("2) Survival")
+    print("3) Hardcore")
+    print("4) Adventure")
+    print("5) Exit")
+
+menu()
+option = int(input("Choose an option"))
+
+if option == 1:
+    print("Creative selcted")
+elif option == 2:
+    print("Survival selcted")
+elif option == 3:
+    print("Hardcore selcted")
+elif option == 4:
+    print("Adventure selcted")
+elif option == 5:
+    print("exiting...")
+elif option > 6:
+    print("invalid choice")
