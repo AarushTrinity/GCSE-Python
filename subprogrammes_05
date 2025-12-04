@@ -1,0 +1,21 @@
+def menu():
+    print("1) think big")
+    print("2) think bigger")
+    print("3) winning")
+    print("4) winner")
+    print("5) Exit")
+
+menu()
+option = int(input("choose an option >>> "))
+while 0 < option < 6:
+    if option == 1:
+        print("thing big chosen")
+    elif option == 2:
+        print("think bigger chosen")
+    elif option == 3:
+        print("winning chosen")
+    elif option == 4:
+        print("winner chosen")
+    elif option == 5:
+        print("bye")
+        option = 6
